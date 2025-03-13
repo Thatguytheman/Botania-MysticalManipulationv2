@@ -147,14 +147,14 @@ dependencies {
     // The group id is ignored when searching -- in this case, it is "blank"
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
 
-    compileOnly fg.deobf("vazkii.botania:Botania:1.20.1-447-FORGE:api")
-    runtimeOnly fg.deobf("vazkii.botania:Botania:1.20.1-447-FORGE")
+    implementation fg.deobf("vazkii.botania:Botania:1.20.1-441-FORGE:api")
+    implementation fg.deobf("vazkii.botania:Botania:1.20.1-441-FORGE")
 
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.9.1+1.20.1")
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:5.9.1+1.20.1:api")
+    implementation fg.deobf("top.theillusivec4.curios:curios-forge:5.9.1+1.20.1")
+    implementation fg.deobf("top.theillusivec4.curios:curios-forge:5.9.1+1.20.1:api")
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE")
+    implementation fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE:api")
+    implementation fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE")
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
